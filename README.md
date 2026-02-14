@@ -91,7 +91,7 @@ Single Rust binary. 17 built-in tools, 5 channels (Telegram, Slack, Discord, Web
 | **Repo** | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) |
 | **Website** | Featured on [VentureBeat](https://venturebeat.com/orchestration/nanoclaw-solves-one-of-openclaws-biggest-security-issues-and-its-already) |
 | **Stars** | 7,000+ |
-| **Language** | Python (Claude Agent SDK) |
+| **Language** | TypeScript (Claude Agent SDK) |
 
 Security-first alternative. Agents run inside isolated containers (Docker or Apple Container) so even rogue AI stays sandboxed. Dramatically smaller codebase than OpenClaw (~4,000 lines vs ~400,000). Built on Anthropic's Claude Agent SDK.
 
@@ -302,7 +302,7 @@ ZeptoClaw is the **Rust-native, IoT-first** member of the Claw family. While Ope
 
 | Metric | OpenClaw | NanoClaw | MimiClaw | PicoClaw | **ZeptoClaw** |
 |--------|----------|----------|----------|----------|---------------|
-| Language | TypeScript | Python | C/Arduino | Go | **Rust** |
+| Language | TypeScript | TypeScript | C/Arduino | Go | **Rust** |
 | Binary | ~100MB+ | ~50MB | Flash | <10MB | **~5MB** |
 | RAM | ~200MB+ | ~100MB | <1MB | <10MB | **~6MB** |
 | Startup | seconds | seconds | instant | 1s | **~50ms** |
