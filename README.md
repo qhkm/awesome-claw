@@ -36,6 +36,7 @@ Clawdbot (Nov 2025)
             ├── PicoClaw ─── RISC-V ultra-lightweight (Go, 10MB RAM)
             ├── NanoClaw ─── container-isolated, security-first (Claude Agent SDK)
             ├── AgentClaw ─── one-click deployment platform
+            ├── TinyClaw ─── multi-agent teams (TypeScript, 1.4K stars)
             ├── ClawSec ─── security skill suite (Prompt Security)
             └── ZeptoClaw ─── Rust-native, IoT-first, 5MB binary
 ```
@@ -115,6 +116,19 @@ Runs OpenClaw on a $5 chip. No OS, no Node.js, no Raspberry Pi needed. Local-fir
 | **Boot** | 1 second |
 
 Ultra-lightweight. Claims to match OpenClaw's core features with 1% of the code and 1% of the memory. Runs on RISC-V SOPHGO SG2002.
+
+### TinyClaw
+
+| | |
+|---|---|
+| **Repo** | [jlia0/tinyclaw](https://github.com/jlia0/tinyclaw) |
+| **Website** | [tinyclaw.xyz](https://tinyclaw.xyz/) |
+| **Stars** | 1,400+ |
+| **Language** | TypeScript |
+
+Multi-agent, multi-team, multi-channel. Multiple isolated AI agents with specialized roles (coder, writer, researcher) collaborate via chain execution and fan-out delegation. File-based queue architecture prevents race conditions. Supports Discord, WhatsApp, Telegram. Live TUI dashboard for monitoring. 24/7 operation via tmux.
+
+Also see: [warengonzaga/tinyclaw](https://github.com/warengonzaga/tinyclaw) — ultra-minimal self-improving AI companion.
 
 ### Nanobot
 
