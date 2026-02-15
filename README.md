@@ -85,6 +85,8 @@ Projects that shrink the Claw concept for edge, IoT, and resource-constrained en
 
 Single Rust binary. 17 built-in tools, 5 channels (Telegram, Slack, Discord, Webhook, WhatsApp), container isolation (Docker + Apple Containers), agent swarms, plugins, batch processing, safety layer, MCP client. Designed for IoT/hardware-first deployments where every megabyte counts.
 
+**Security built-in, not bolted on:** Prompt injection detection (Aho-Corasick, 17 patterns), secret leak scanner (22 regex patterns), policy engine (7 rules), shell blocklist, SSRF prevention, tool approval gate — all enabled by default. Container isolation sandboxes every shell command. The only Claw that sandboxes by default.
+
 ### NanoClaw
 
 | | |
@@ -323,7 +325,9 @@ ZeptoClaw is the **Rust-native, IoT-first** member of the Claw family. While Ope
 | Channels | 12+ | WhatsApp | Telegram | 1 | **5** |
 | Tools | 100+ skills | Core set | GPIO + LLM | Core set | **17 built-in** |
 | Isolation | None (host) | Container | Hardware | Hardware | **Container** |
-| Safety | SOUL.md | SDK guardrails | N/A | N/A | **Built-in layer** |
+| Safety | SOUL.md only | SDK guardrails | N/A | N/A | **8-layer safety** |
+| Injection Detection | None | None | N/A | N/A | **Aho-Corasick + regex** |
+| Secret Leak Scan | None | None | N/A | N/A | **22 patterns** |
 
 **ZeptoClaw's niche:** Run hundreds of isolated AI agents on a single $5 VPS. Not toy agents — real ones with shell access, web browsing, file management, scheduled tasks, and persistent memory. The smallest, fastest, safest member of the Claw family.
 
