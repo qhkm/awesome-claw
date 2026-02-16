@@ -87,7 +87,7 @@ Projects that shrink the Claw concept for edge, IoT, and resource-constrained en
 | **PicoClaw** | Go | 11,622 | - | 1s | <10MB | RISC-V SOPHGO SG2002, $10 hardware |
 | **NanoClaw** | TypeScript | 8,625 | - | - | - | Container-isolated, Claude Agent SDK |
 | **TinyClaw** | Shell/TS/Python | 1,793 | - | - | - | Multi-agent teams, collaboration |
-| **MimiClaw** | - | - | - | - | - | ESP32-S3 chip, $5 hardware |
+| **MimiClaw** | C | 1,964 | - | - | - | ESP32-S3 chip, $5 hardware, no OS required |
 | **SeaClaw** | C | 17 | <2MB | <50ms (cold) | - | Single static binary, no dependencies |
 | **FemtoClaw** | Rust | 2 | - | - | - | Minimalist implementation |
 | **LispClaw** | Common Lisp | 0 | - | - | - | Experimental dynamic language |
@@ -136,9 +136,11 @@ Security-first alternative. Agents run inside isolated containers (Docker or App
 |---|---|
 | **Repo** | [memovai/mimiclaw](https://github.com/memovai/mimiclaw) |
 | **Website** | [mimiclaw.io](https://www.mimiclaw.io/) |
+| **Stars** | 1,964 |
+| **Language** | C |
 | **Hardware** | ESP32-S3 |
 
-Runs OpenClaw on a $5 chip. No OS, no Node.js, no Raspberry Pi needed. Local-first memory on flash, connects to Telegram + Claude. Featured on [CNX Software](https://www.cnx-software.com/2026/02/13/mimiclaw-is-an-openclaw-like-ai-assistant-for-esp32-s3-boards/).
+Runs OpenClaw on a $5 chip. No OS (Linux), no Node.js, no Raspberry Pi, no VPS needed. Local-first memory on flash, connects to Telegram + Claude. Shareable, portable, privacy-first. Claims to be smarter than PicoClaw. Featured on [CNX Software](https://www.cnx-software.com/2026/02/13/mimiclaw-is-an-openclaw-like-ai-assistant-for-esp32-s3-boards/).
 
 ### PicoClaw
 
