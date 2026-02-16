@@ -36,11 +36,11 @@ Clawdbot (Nov 2025)
             │
             ├── Lightweight & Embedded Variants:
             │   ├── ZeroClaw ─── Rust, 4.6K⭐, 3.4MB, <10ms startup
-            │   ├── ZeptoClaw ─── Rust, IoT-first, 5MB binary
+            │   ├── ZeptoClaw ─── Rust, "final form", 4MB, security-focused
             │   ├── PicoClaw ─── Go, 11.6K⭐, RISC-V, <10MB RAM
             │   ├── NanoClaw ─── TypeScript, 8.6K⭐, container-isolated
             │   ├── TinyClaw ─── Shell/TS, 1.8K⭐, multi-agent teams
-            │   ├── MimiClaw ─── ESP32-S3 embedded ($5 chip)
+            │   ├── MimiClaw ─── C, 2K⭐, ESP32-S3 embedded ($5 chip)
             │   ├── SeaClaw ─── C, <2MB, <50ms cold start
             │   ├── FemtoClaw ─── Rust, minimalist
             │   └── LispClaw ─── Common Lisp, experimental
@@ -89,7 +89,7 @@ Projects that shrink the Claw concept for edge, IoT, and resource-constrained en
 | [**TinyClaw**](https://github.com/jlia0/tinyclaw) | Shell/TS/Python | 1,793 | - | - | - | Multi-agent teams, collaboration |
 | [**SeaClaw**](https://github.com/haeli05/seaclaw) | C | 17 | <2MB | <50ms (cold) | - | Single static binary, no dependencies |
 | [**FemtoClaw**](https://github.com/mcotdev/femtoclaw) | Rust | 2 | - | - | - | Minimalist implementation |
-| [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) | Rust | - | ~5MB | ~50ms | ~6MB | IoT-first, 17 tools, 5 channels |
+| [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) | Rust | - | ~4MB | ~50ms | ~6MB | "Final form", security-focused, 17 tools |
 | [**LispClaw**](https://github.com/jsmorph/lispclaw) | Common Lisp | 0 | - | - | - | Experimental dynamic language |
 
 _Sorted by GitHub stars. Click project names for repositories._
@@ -116,12 +116,13 @@ High-performance reimplementation written in pure Rust. "Claw done right 🦀" �
 | | |
 |---|---|
 | **Repo** | [qhkm/zeptoclaw](https://github.com/qhkm/zeptoclaw) |
+| **Website** | [zeptoclaw.com](https://zeptoclaw.com/) |
 | **Language** | Rust |
-| **Binary** | ~5MB |
+| **Binary** | ~4MB |
 | **Startup** | ~50ms |
 | **RAM** | ~6MB |
 
-Single Rust binary. 17 built-in tools, 5 channels (Telegram, Slack, Discord, Webhook, WhatsApp), container isolation (Docker + Apple Containers), agent swarms, plugins, batch processing, safety layer, MCP client. Designed for IoT/hardware-first deployments where every megabyte counts.
+"Final form of claw family" — ultra-lightweight Rust implementation combining OpenClaw's integrations, NanoClaw's security, and PicoClaw's size. 17 built-in tools, 5 channels (Telegram, Slack, Discord, Webhook, CLI), container isolation, agent swarms, batch processing, 1,300+ tests. Security-focused with prompt injection detection, secret leak scanning, SSRF prevention, and policy engine. Supports multi-tenant deployments and runs hundreds of tenants on one VPS.
 
 ### NanoClaw
 
