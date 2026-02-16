@@ -78,21 +78,25 @@ The original. A local-first personal AI assistant that connects to 12+ messaging
 
 Projects that shrink the Claw concept for edge, IoT, and resource-constrained environments.
 
-### Quick Comparison Table
+### Comparison Table
 
 | Project | Language | Stars | Binary Size | Startup Time | RAM | Key Feature |
 |---------|----------|-------|-------------|--------------|-----|-------------|
-| **ZeroClaw** | Rust | 4,618 | ~3.4MB | <10ms (warm) | ~7.8MB | 400X faster than OpenClaw, 22+ providers |
-| **ZeptoClaw** | Rust | - | ~5MB | ~50ms | ~6MB | IoT-first, 17 tools, 5 channels |
-| **PicoClaw** | Go | 11,622 | - | 1s | <10MB | RISC-V SOPHGO SG2002, $10 hardware |
-| **NanoClaw** | TypeScript | 8,625 | - | - | - | Container-isolated, Claude Agent SDK |
-| **TinyClaw** | Shell/TS/Python | 1,793 | - | - | - | Multi-agent teams, collaboration |
-| **MimiClaw** | C | 1,964 | - | - | - | ESP32-S3 chip, $5 hardware, no OS required |
-| **SeaClaw** | C | 17 | <2MB | <50ms (cold) | - | Single static binary, no dependencies |
-| **FemtoClaw** | Rust | 2 | - | - | - | Minimalist implementation |
-| **LispClaw** | Common Lisp | 0 | - | - | - | Experimental dynamic language |
+| [**PicoClaw**](https://github.com/sipeed/picoclaw) | Go | 11,622 | - | 1s | <10MB | RISC-V SOPHGO SG2002, $10 hardware |
+| [**NanoClaw**](https://github.com/qwibitai/nanoclaw) | TypeScript | 8,625 | - | - | - | Container-isolated, Claude Agent SDK |
+| [**ZeroClaw**](https://github.com/theonlyhennygod/zeroclaw) | Rust | 4,618 | ~3.4MB | <10ms (warm) | ~7.8MB | 400X faster than OpenClaw, 22+ providers |
+| [**MimiClaw**](https://github.com/memovai/mimiclaw) | C | 1,964 | - | - | - | ESP32-S3 chip, $5 hardware, no OS required |
+| [**TinyClaw**](https://github.com/jlia0/tinyclaw) | Shell/TS/Python | 1,793 | - | - | - | Multi-agent teams, collaboration |
+| [**SeaClaw**](https://github.com/haeli05/seaclaw) | C | 17 | <2MB | <50ms (cold) | - | Single static binary, no dependencies |
+| [**FemtoClaw**](https://github.com/mcotdev/femtoclaw) | Rust | 2 | - | - | - | Minimalist implementation |
+| [**ZeptoClaw**](https://github.com/qhkm/zeptoclaw) | Rust | - | ~5MB | ~50ms | ~6MB | IoT-first, 17 tools, 5 channels |
+| [**LispClaw**](https://github.com/jsmorph/lispclaw) | Common Lisp | 0 | - | - | - | Experimental dynamic language |
+
+_Sorted by GitHub stars. Click project names for repositories._
 
 ---
+
+### Detailed Descriptions
 
 ### ZeroClaw
 
