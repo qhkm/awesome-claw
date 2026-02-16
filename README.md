@@ -19,7 +19,6 @@
 - [Social & Agent Networks](#social--agent-networks)
 - [Enterprise Integrations](#enterprise-integrations)
 - [Community & Media](#community--media)
-- [Where ZeptoClaw Fits](#where-zeptoclaw-fits)
 
 ---
 
@@ -32,13 +31,19 @@ Clawdbot (Nov 2025)
             ├── MoltBook ─── social network for AI agents (1.5M+ agents)
             ├── ClawHub ─── skill marketplace (5,700+ skills)
             ├── MoltWorker ─── Cloudflare Workers adaptation
-            ├── MimiClaw ─── ESP32-S3 embedded ($5 chip)
-            ├── PicoClaw ─── RISC-V ultra-lightweight (Go, 10MB RAM)
-            ├── NanoClaw ─── container-isolated, security-first (Claude Agent SDK)
             ├── AgentClaw ─── one-click deployment platform
-            ├── TinyClaw ─── multi-agent teams (TypeScript, 1.4K stars)
             ├── ClawSec ─── security skill suite (Prompt Security)
-            └── ZeptoClaw ─── Rust-native, IoT-first, 5MB binary
+            │
+            ├── Lightweight & Embedded Variants:
+            │   ├── ZeroClaw ─── Rust, 4.6K⭐, 3.4MB, <10ms startup
+            │   ├── ZeptoClaw ─── Rust, IoT-first, 5MB binary
+            │   ├── PicoClaw ─── Go, 11.6K⭐, RISC-V, <10MB RAM
+            │   ├── NanoClaw ─── TypeScript, 8.6K⭐, container-isolated
+            │   ├── TinyClaw ─── Shell/TS, 1.8K⭐, multi-agent teams
+            │   ├── MimiClaw ─── ESP32-S3 embedded ($5 chip)
+            │   ├── SeaClaw ─── C, <2MB, <50ms cold start
+            │   ├── FemtoClaw ─── Rust, minimalist
+            │   └── LispClaw ─── Common Lisp, experimental
 ```
 
 ---
@@ -73,6 +78,19 @@ The original. A local-first personal AI assistant that connects to 12+ messaging
 
 Projects that shrink the Claw concept for edge, IoT, and resource-constrained environments.
 
+### ZeroClaw
+
+| | |
+|---|---|
+| **Repo** | [theonlyhennygod/zeroclaw](https://github.com/theonlyhennygod/zeroclaw) |
+| **Stars** | 4,618 |
+| **Language** | Rust |
+| **Binary** | ~3.4MB |
+| **Startup** | <10ms (warm), 0.38s (cold) |
+| **RAM** | ~7.8MB peak |
+
+High-performance reimplementation written in pure Rust. "Claw done right 🦀" — 400X faster startup than OpenClaw, runs on $10 hardware. Includes 22+ AI provider support, multi-channel messaging (CLI, Telegram, Discord, Slack, iMessage), SQLite hybrid memory with vector search, 1,017 tests, and three autonomy levels. Secure by design with pairing-based auth, strict sandboxing, and path jailing.
+
 ### ZeptoClaw
 
 | | |
@@ -91,10 +109,10 @@ Single Rust binary. 17 built-in tools, 5 channels (Telegram, Slack, Discord, Web
 |---|---|
 | **Repo** | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) |
 | **Website** | Featured on [VentureBeat](https://venturebeat.com/orchestration/nanoclaw-solves-one-of-openclaws-biggest-security-issues-and-its-already) |
-| **Stars** | 7,000+ |
+| **Stars** | 8,625 |
 | **Language** | TypeScript (Claude Agent SDK) |
 
-Security-first alternative. Agents run inside isolated containers (Docker or Apple Container) so even rogue AI stays sandboxed. Dramatically smaller codebase than OpenClaw (~4,000 lines vs ~400,000). Built on Anthropic's Claude Agent SDK.
+Security-first alternative. Agents run inside isolated containers (Docker or Apple Container) so even rogue AI stays sandboxed. Dramatically smaller codebase than OpenClaw (~4,000 lines vs ~400,000). Built on Anthropic's Claude Agent SDK. Connects to WhatsApp, has memory, scheduled jobs.
 
 ### MimiClaw
 
@@ -110,6 +128,8 @@ Runs OpenClaw on a $5 chip. No OS, no Node.js, no Raspberry Pi needed. Local-fir
 
 | | |
 |---|---|
+| **Repo** | [sipeed/picoclaw](https://github.com/sipeed/picoclaw) |
+| **Stars** | 11,622 |
 | **Hardware** | Sipeed LicheeRV Nano (RISC-V, $10) |
 | **Language** | Go |
 | **RAM** | <10MB |
@@ -123,12 +143,43 @@ Ultra-lightweight. Claims to match OpenClaw's core features with 1% of the code 
 |---|---|
 | **Repo** | [jlia0/tinyclaw](https://github.com/jlia0/tinyclaw) |
 | **Website** | [tinyclaw.xyz](https://tinyclaw.xyz/) |
-| **Stars** | 1,400+ |
-| **Language** | TypeScript |
+| **Stars** | 1,793 |
+| **Language** | Shell (primary), TypeScript, Python |
 
-Multi-agent, multi-team, multi-channel. Multiple isolated AI agents with specialized roles (coder, writer, researcher) collaborate via chain execution and fan-out delegation. File-based queue architecture prevents race conditions. Supports Discord, WhatsApp, Telegram. Live TUI dashboard for monitoring. 24/7 operation via tmux.
+Team of personal agents that collaborate with each other. Multiple isolated AI agents with specialized roles (coder, writer, researcher) work via chain execution and fan-out delegation. File-based queue architecture prevents race conditions. Supports Discord, WhatsApp, Telegram. Live TUI dashboard for monitoring. 24/7 operation via tmux.
 
 Also see: [warengonzaga/tinyclaw](https://github.com/warengonzaga/tinyclaw) — ultra-minimal self-improving AI companion.
+
+### SeaClaw
+
+| | |
+|---|---|
+| **Repo** | [haeli05/seaclaw](https://github.com/haeli05/seaclaw) |
+| **Stars** | 17 |
+| **Language** | C |
+| **Binary** | <2MB |
+| **Startup** | <50ms (cold) |
+
+OpenClaw rewritten in C. Single static binary optimized for maximum performance and minimal footprint. No runtime dependencies.
+
+### FemtoClaw
+
+| | |
+|---|---|
+| **Repo** | [mcotdev/femtoclaw](https://github.com/mcotdev/femtoclaw) |
+| **Stars** | 2 |
+| **Language** | Rust |
+
+Tiny Rust-based version of OpenClaw. Super small implementation focused on minimalism.
+
+### LispClaw
+
+| | |
+|---|---|
+| **Repo** | [jsmorph/lispclaw](https://github.com/jsmorph/lispclaw) |
+| **Language** | Common Lisp, Python |
+
+Pi integrations for dynamic languages. Experimental implementation exploring Lisp-based agent architecture.
 
 ### Nanobot
 
@@ -310,29 +361,23 @@ Peter Steinberger has [offers from Meta and OpenAI on the table](https://www.tre
 
 ---
 
-## Where ZeptoClaw Fits
-
-ZeptoClaw is the **Rust-native, IoT-first** member of the Claw family. While OpenClaw optimizes for feature breadth (400K+ lines, 12+ channels, thousands of skills), ZeptoClaw optimizes for **binary size, startup speed, and deployment density**.
-
-| Metric | OpenClaw | NanoClaw | MimiClaw | PicoClaw | **ZeptoClaw** |
-|--------|----------|----------|----------|----------|---------------|
-| Language | TypeScript | TypeScript | C/Arduino | Go | **Rust** |
-| Binary | ~100MB+ | ~50MB | Flash | <10MB | **~5MB** |
-| RAM | ~200MB+ | ~100MB | <1MB | <10MB | **~6MB** |
-| Startup | seconds | seconds | instant | 1s | **~50ms** |
-| Channels | 12+ | WhatsApp | Telegram | 1 | **5** |
-| Tools | 100+ skills | Core set | GPIO + LLM | Core set | **17 built-in** |
-| Isolation | None (host) | Container | Hardware | Hardware | **Container** |
-| Safety | SOUL.md | SDK guardrails | N/A | N/A | **Built-in layer** |
-
-**ZeptoClaw's niche:** Run hundreds of isolated AI agents on a single $5 VPS. Not toy agents — real ones with shell access, web browsing, file management, scheduled tasks, and persistent memory. The smallest, fastest, safest member of the Claw family.
-
----
-
 ## Contributing
 
-Found a Claw project we missed? Open a PR or issue.
+Found a Claw project we missed? Open a PR or issue!
+
+Please read the [Contributing Guidelines](CONTRIBUTING.md) before submitting.
+
+**Quick guidelines:**
+- Ensure the project is related to the OpenClaw ecosystem
+- Follow the existing format and alphabetical order
+- Include key metadata (repo, language, stars, description)
+- One pull request per addition
+- Verify all links work
 
 ## License
 
-This list is maintained as part of the [ZeptoClaw](https://github.com/qhkm/zeptoclaw) project under Apache 2.0.
+[![CC0](https://img.shields.io/badge/license-CC0-1.0-blue.svg)](LICENSE)
+
+This work is licensed under [CC0 1.0 Universal](LICENSE).
+
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. This list is dedicated to the public domain.
