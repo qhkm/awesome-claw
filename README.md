@@ -300,6 +300,16 @@ The npm of AI agent skills. Community-driven marketplace where devs publish code
 
 The personality framework. Distills worldview, voice, and specific takes into structured markdown that any LLM can embody on the fly. Separates soul (philosophy), identity (presentation), and configuration (capabilities). [SOUL.md Templates](https://alirezarezvani.medium.com/10-soul-md-practical-cases-in-a-guide-for-moltbot-clawdbot-defining-who-your-ai-chooses-to-be-dadff9b08fe2)
 
+### x-twitter-scraper
+
+| | |
+|---|---|
+| **Repo** | [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) |
+| **Type** | Skill |
+| **Tools** | 40+ |
+
+X API & Twitter scraper skill for AI coding agents. 40+ tools: tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions, Telegram integrations. REST API, MCP server & webhooks. Works with Claude Code, Cursor, Codex, Copilot, Windsurf & 40+ agents.
+
 ### Skill Platforms
 
 | Platform | Description | Link |
