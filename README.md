@@ -270,6 +270,16 @@ Open-source tool that detects autonomous AI agents running on networks. Created 
 
 Security-first OpenClaw skills: prompt injection detection, supply chain attack detection, credential leak scanning. Works with Codex CLI, Claude Code, any LLM.
 
+### OpenClaw-Guard (ClawGuard)
+
+| | |
+|---|---|
+| **Repo** | [jnMetaCode/clawguard](https://github.com/jnMetaCode/clawguard) |
+| **npm** | [openclaw-guard](https://www.npmjs.com/package/openclaw-guard) |
+| **By** | jnMetaCode |
+
+First **bilingual (EN/ZH)** security plugin for OpenClaw with 8 defense layers — prompt injection detection (25 rules: 13 Chinese + 12 English), dangerous command blocking (15 rules), PII/secret redaction including Chinese-specific patterns (ID card with checksum validation, phone number, bank card with Luhn), data exfiltration chain detection, canary token leak detection, and JSONL audit logging. Zero dependencies, no build step, one-click install. The only OpenClaw security tool with native Chinese language support.
+
 ### Key Security Events
 
 - **CVE-2026-25253** (CVSS 8.8) — Cross-site WebSocket hijacking, single malicious link = full RCE
