@@ -306,6 +306,7 @@ The personality framework. Distills worldview, voice, and specific takes into st
 |----------|-------------|------|
 | **Smithery** | MCP + OpenClaw skill hosting | [smithery.ai](https://smithery.ai/skills/openclaw/openclaw-setup) |
 | **Skillsmp** | Skill marketplace aggregator | [skillsmp.com](https://skillsmp.com/) |
+| **TweetClaw** | X/Twitter automation plugin — post, reply, like, retweet, follow, DM, search, extract data, giveaways, monitors. 40+ endpoints. | [GitHub](https://github.com/Xquik-dev/tweetclaw) |
 
 ---
 
