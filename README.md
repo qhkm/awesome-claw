@@ -225,6 +225,7 @@ One-click or managed hosting for people who don't want to self-host.
 | **AgentClaw.now** | One-click OpenClaw deployment in <60 seconds by SEOZilla | [AI Journal](https://aijourn.com/seozilla-launches-agentclaw-now-to-bring-openclaw-ai-agents-to-everyone/) |
 | **MyClaw.ai** | World's first one-click OpenClaw deployment platform | [Yahoo Finance](https://finance.yahoo.com/news/myclaw-ai-launches-worlds-first-153000127.html) |
 | **Agent37** | Managed hosting for OpenClaw agents | - |
+| **Silos Dashboard** | Open-source dashboard for OpenClaw — manage agents, sessions, channels (WhatsApp, Telegram, Discord, Slack), cron jobs, and analytics. React/TypeScript, i18n, dark/light theme. Also available as managed hosting. | [GitHub](https://github.com/cheapestinference/silos) &#124; [silosplatform.com](https://silosplatform.com) |
 | **SimpleClaw** | Simplified OpenClaw hosting | - |
 | **ClawCloud** | Cloud-hosted Claw agents | - |
 | **EasyClaw** | Easy deployment platform | - |
