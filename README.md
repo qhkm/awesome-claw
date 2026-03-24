@@ -384,6 +384,11 @@ Peter Steinberger has [offers from Meta and OpenAI on the table](https://www.tre
 
 ---
 
+## XVARY Stock Research
+
+- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
+
+
 ## Contributing
 
 Found a Claw project we missed? Open a PR or issue!
