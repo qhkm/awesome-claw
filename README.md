@@ -15,7 +15,16 @@
 - [Forks & Variants](#forks--variants)
 - [Security & Hardening](#security--hardening)
 - [Skills & Marketplace](#skills--marketplace)
-- [Awesome Lists & Resources](#awesome-lists--resources)
+### CDA Protocol
+
+| | |
+|---|---|
+| **Repo** | [whtoo/cda_protocol](https://github.com/whtoo/cda_protocol) |
+| **License** | CC BY-ND 4.0 |
+
+Context Direction Alignment paradigm for ultra-long continuous tasks. Replaces token-hoarding with phase-aware direction alignment. Includes `SOUL.md` agent persona, OpenClaw-compatible `skill/` manifest, and real session telemetry showing 100% → 7% message retention with stable operation past 1,200 turns.
+
+### Skill Platforms- [Awesome Lists & Resources](#awesome-lists--resources)
 - [Social & Agent Networks](#social--agent-networks)
 - [Enterprise Integrations](#enterprise-integrations)
 - [Community & Media](#community--media)
