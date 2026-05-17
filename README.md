@@ -304,6 +304,7 @@ The personality framework. Distills worldview, voice, and specific takes into st
 
 | Platform | Description | Link |
 |----------|-------------|------|
+| **Remote OpenClaw** | OpenClaw-focused skills directory with community installs, categories, and use-case filtering | [remoteopenclaw.com](https://www.remoteopenclaw.com/skills/openclaw) |
 | **Smithery** | MCP + OpenClaw skill hosting | [smithery.ai](https://smithery.ai/skills/openclaw/openclaw-setup) |
 | **Skillsmp** | Skill marketplace aggregator | [skillsmp.com](https://skillsmp.com/) |
 
