@@ -248,6 +248,16 @@ One-click or managed hosting for people who don't want to self-host.
 
 The Claw ecosystem has attracted serious security scrutiny. These projects address it.
 
+### APort Agent Guardrails
+
+| | |
+|---|---|
+| **Repo** | [aporthq/aport-agent-guardrails](https://github.com/aporthq/aport-agent-guardrails) |
+| **Website** | [aport.io](https://aport.io/) |
+| **OpenClaw support** | CLI setup path for OpenClaw |
+
+Pre-action authorization guardrails for AI agents. APort uses Open Agent Passport policies to approve or block tool calls before execution, records allow/deny decisions, and supports OpenClaw alongside Cursor, Claude Code, LangChain, CrewAI, DeerFlow, and n8n.
+
 ### ClawSec
 
 | | |
