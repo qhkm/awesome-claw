@@ -309,6 +309,20 @@ The personality framework. Distills worldview, voice, and specific takes into st
 
 ---
 
+### OpenClaw Monitor
+
+| | |
+|---|---|
+| **Repo** | [flik2002/openclaw-monitor](https://github.com/flik2002/openclaw-monitor) |
+| **Stars** | 9⭐ |
+| **Website** | [OpenClaw Monitor Dashboard](https://flik2002.github.io/openclaw-monitor) |
+| **License** | MIT |
+
+Free open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends, multi-model support. Built with Vue 3 + ECharts.
+
+---
+
+
 ## Awesome Lists & Resources
 
 Existing curated collections in the ecosystem:
