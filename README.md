@@ -315,6 +315,7 @@ Existing curated collections in the ecosystem:
 
 | List | Focus | Link |
 |------|-------|------|
+| **ClawBench** | Benchmarking OpenClaw and other web-agent harnesses on real online tasks with recorded execution evidence | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) |
 | **SamurAIGPT/awesome-openclaw** | Comprehensive resources, tools, tutorials | [GitHub](https://github.com/SamurAIGPT/awesome-openclaw) |
 | **rohitg00/awesome-openclaw** | 80+ ecosystem projects, hosting guides, cost comparisons | [GitHub](https://github.com/rohitg00/awesome-openclaw) |
 | **VoltAgent/awesome-openclaw-skills** | 3,000+ curated skills from ClawHub | [GitHub](https://github.com/VoltAgent/awesome-openclaw-skills) |
