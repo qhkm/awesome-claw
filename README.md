@@ -270,6 +270,14 @@ Open-source tool that detects autonomous AI agents running on networks. Created 
 
 Security-first OpenClaw skills: prompt injection detection, supply chain attack detection, credential leak scanning. Works with Codex CLI, Claude Code, any LLM.
 
+### MandateGuard
+
+| | |
+|---|---|
+| **Repo** | [ezequiellich44-cmd/MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard) |
+
+Deterministic payment policy enforcement for AI agents: pre-action gate enforcing budgets, allowlists, denylists, rate limits, and signed Ed25519 payment mandates with zero LLM in the decision path (reproducible verdicts). Tamper-evident SHA-256 chained audit ledger; official MCP server on the Model Context Protocol Registry. Pairs with OpenClaw via the MCP bridge.
+
 ### Key Security Events
 
 - **CVE-2026-25253** (CVSS 8.8) — Cross-site WebSocket hijacking, single malicious link = full RCE
