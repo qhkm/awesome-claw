@@ -258,6 +258,15 @@ The Claw ecosystem has attracted serious security scrutiny. These projects addre
 
 Complete security skill suite for the OpenClaw family. Protects SOUL.md with drift detection, live security recommendations, automated audits, and skill integrity verification. Featured on [SentinelOne](https://www.sentinelone.com/blog/clawsec-hardening-openclaw-agents-from-the-inside-out/).
 
+### HOL Guard
+
+| | |
+|---|---|
+| **Repo** | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) |
+| **License** | Apache-2.0 |
+
+Open-source local security tool that scans agent skills, plugins and MCP configurations, with policy checks for supported OpenClaw actions. Coverage depends on supported agent hooks and integration configuration.
+
 ### OpenClaw Scanner
 
 Open-source tool that detects autonomous AI agents running on networks. Created after 42,000+ exposed OpenClaw instances were found on the internet. [Help Net Security](https://www.helpnetsecurity.com/2026/02/12/openclaw-scanner-open-source-tool-detects-autonomous-ai-agents/)
