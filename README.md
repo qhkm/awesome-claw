@@ -304,6 +304,7 @@ The personality framework. Distills worldview, voice, and specific takes into st
 
 | Platform | Description | Link |
 |----------|-------------|------|
+| **HOL Plugins** | Plugin and skill discovery directory covering OpenClaw and other agent runtimes | [hol.org/plugins](https://hol.org/plugins) |
 | **Smithery** | MCP + OpenClaw skill hosting | [smithery.ai](https://smithery.ai/skills/openclaw/openclaw-setup) |
 | **Skillsmp** | Skill marketplace aggregator | [skillsmp.com](https://skillsmp.com/) |
 
